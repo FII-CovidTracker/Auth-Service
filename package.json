@@ -1,0 +1,23 @@
+{
+  "name": "covidtracker-authorization-service",
+  "version": "1.0.0",
+  "description": "A service which uses JWT in order to guarantee AC",
+  "main": "src/service.js",
+  "scripts": {
+    "dev": "nodemon src/service.js",
+    "start": "node src/service.js"
+  },
+  "author": "Deny-Constantin Pătrașcu",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.25.1",
+    "chalk": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
